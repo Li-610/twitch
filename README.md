@@ -5,8 +5,8 @@ A personalized Twitch resource recommendation engine built with Spring Boot and 
 - Optimized backend with Spring Boot and OpenFeign for efficient Twitch API integration
 - Content-based recommendation algorithm based on user behavior
 - Responsive and user-friendly UI built with React and Ant Design
-- 🛡Secure authentication and authorization using Spring Security
-- 🗄Data stored in MySQL and deployed on AWS RDS
+- Secure authentication and authorization using Spring Security
+- Data stored in MySQL and deployed on AWS RDS
 
 ## Tech Stack
 - Backend: Spring Boot, OpenFeign, Spring Security, MySQL (AWS RDS)
@@ -25,3 +25,8 @@ A personalized Twitch resource recommendation engine built with Spring Boot and 
 cd backend
 ./gradlew build
 java -jar build/libs/twitchplus.jar
+
+### Frontend Setup
+cd frontend
+npm install
+npm start
