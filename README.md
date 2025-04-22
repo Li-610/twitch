@@ -25,8 +25,10 @@ A personalized Twitch resource recommendation engine built with Spring Boot and 
 cd backend
 ./gradlew build
 java -jar build/libs/twitchplus.jar
-
+```
 ### Frontend Setup
+```bash
 cd frontend
 npm install
 npm start
+```
